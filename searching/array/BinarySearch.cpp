@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int BinarySearch(int arr[], int n, int item)
+void BinarySearch(int arr[], int n, int item)
 {
 	int lb = 0;
 	int ub = n-1;
